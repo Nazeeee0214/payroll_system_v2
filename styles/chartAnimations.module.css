@@ -1,0 +1,17 @@
+/* Subtle floating line dots */
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-2px); } /* smaller movement */
+}
+.float-dot {
+  animation: float 5s ease-in-out infinite; /* slower */
+}
+
+/* Subtle floating bars */
+@keyframes float-bar {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-1.5px); } /* smaller movement */
+}
+.float-bar {
+  animation: float-bar 5s ease-in-out infinite; /* slower */
+}
